@@ -1,0 +1,41 @@
+classe Ponto
+{
+  variável X, Y; // coordenadas
+
+  // função para definir as coordenadas do Ponto
+  funçãoDefinirPonto(input A, input B)
+  {
+    variável X = input A;
+    variável Y = input B;
+  }
+
+  // função para criar o ponto no plano
+  funçãoCriarPonto(variável X, variável Y) // X e Y são as coordenadas
+  {
+    crie ponto;
+  }
+}
+
+classe Reta
+{
+  variáveis X, Y; // cada variável recebe um Ponto
+
+  // função para definir os pontos da Reta
+  funçãoDefinirReta(input Ponto.pontoA, input Ponto.pontoB)
+  {
+    se (Ponto.pontoA == Ponto.pontoB)
+    {
+      imprima "Erro, não é possível criar uma reta a partir de 2 pontos iguais!";
+    }
+    se não
+    {
+    variável X = Ponto.pontoA;
+    variável Y = Ponto.pontoB;
+    }
+  }
+
+  funçãoCriarReta(variável X, variável Y) // X e Y são os pontos
+  {
+    crie reta;
+  }
+}

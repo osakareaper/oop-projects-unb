@@ -1,0 +1,25 @@
+# Classes:
+  > Ponto;
+  > Reta;
+  > Círculo;
+  > Retângulo;
+
+## classe Ponto:
+  > coordenada X;
+  > coordenada Y;
+
+## classe Reta:
+  > ponto A;
+  > ponto B;
+
+  >> (ponto A != ponto B);
+
+## classe Círculo:
+  > ponto A (centro);
+  > reta R (raio);
+
+## classe Retângulo:
+  > reta A;
+  > reta B;
+
+  
