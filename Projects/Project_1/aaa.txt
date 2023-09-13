@@ -1,0 +1,115 @@
+class Point:
+
+  --> Atributos:
+
+    // coordenadas do ponto:
+    var X, Y;
+
+  --> Métodos:
+
+    // setar coordenadas do ponto:
+    void setPoint(a, b)
+    {
+      X = a;
+      Y = b;
+    }
+
+    // obter coordenadas do ponto:
+    int getPoint()
+    {
+      return X, Y;
+    }
+
+    // obter quadrante do ponto:
+    int quad()
+    {
+      if (X positivo)
+      {
+        if (Y positivo)
+          return 1; // (1º quadrante)
+
+        else if (Y negativo)
+          return 4; // (4º quadrante)
+      }
+
+      if (X negativo)
+      {
+        if (Y positivo)
+          return 2; // (2º quadrante)
+
+        else if (Y negativo)
+          return 3; // (3º quadrante)
+      }
+    }
+
+    // verifica se o ponto está na origem:
+    bool isOnOrigin()
+    {
+      X e Y == 0? return 1: return 0;
+    }
+
+class Circle(Point):
+
+  --> Atributos:
+
+    // raio do círculo:
+    var R;
+
+    // criar ponto e coordenadas do ponto:
+    Point point;
+    point.X;
+    point.Y;
+
+
+  --> Métodos:
+
+    // setar o ponto e o raio do círculo:
+    void setCirle(a, b, c)
+    {
+      point.X = a;
+      point.Y = b;
+      R = c;
+    }
+
+    // obter ponto e raio do círculo:
+    int getCircle()
+    {
+      return point.X, point.Y, R;
+    }
+
+    // retorna área do círculo:
+    double area()
+    {
+      return (3.14*R)**2;
+    }
+
+
+  
+    
+
+
+
+
+
+
+
+
+
+class Line(Point):
+
+
+
+
+
+
+class Square:
+
+
+
+class Rectangle:
+
+
+
+
+
+
