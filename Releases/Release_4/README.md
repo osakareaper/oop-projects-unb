@@ -1,5 +1,8 @@
 <h1 style="text-align: center"> Tricks n' Bones </h1>
 
+Link do vídeo explicando o projeto: <a href="https://www.youtube.com/watch?v=VfSpWdd8z2A">https://www.youtube.com/watch?v=VfSpWdd8z2A</a>
+
+
 Jogo criado em Python durante o curso de Orientação à Objetos da UnB, com o professor Henrique Moura.
 
 O jogo utiliza as bibliotecas pygame e Tkinter, além de possuir um banco de dados feito em sqlite.
